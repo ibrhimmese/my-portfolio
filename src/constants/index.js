@@ -124,7 +124,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2022 - Now",
     points: [
-      "Designed,developed,anddeliveredfull-stackweb,mobile,and desktopapplications tailored to client needs, focusing on clean architecture, secure API integrations, and responsive user interfaces.",
+      "Designed, developed, and delivered full-stack web, mobile, and desktop applications tailored to client needs, focusing on clean architecture, secure API integrations, and responsive user interfaces.",
       "Responsible for the entire development lifecycle, including requirementanalysis, UI/UX design, deployment, andpost-launch support.",
   
     ],
@@ -142,7 +142,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full Stack Developer",
     company_name: "True Bms | Maltepe/Istanbul",
     icon: meta,
     iconBg: "#E6DEDD",
