@@ -36,7 +36,7 @@ import backendgithub from "./backendgithub.png";
 import weather from "./weather.png";
 import business from "./business.png";
 import nuget from "./nuget.png";
-
+import resumecv from "./ibrahimmesecv.pdf";
 export {
   logo,
   backend,
@@ -73,4 +73,5 @@ export {
   weather,
   business,
   nuget,
+  resumecv,
 };

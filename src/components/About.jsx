@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { resumecv } from "../assets";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -54,6 +55,16 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div className="mt-20 text-center">
+        <a
+          href={resumecv}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#6b7280] hover:bg-[#9ca3af] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary transition-colors duration-300"
+        >
+          View CV
+        </a>
       </div>
     </>
   );

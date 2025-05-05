@@ -29,7 +29,7 @@ import {
   backendgithub,
   weather,
   business,
-  nuget
+  nuget,
 } from "../assets";
 
 export const navLinks = [
