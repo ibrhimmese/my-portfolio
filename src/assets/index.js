@@ -29,6 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import doctorApp from "./doctorApp.png";
+import erp from "./erp.png";
+import gamehub from "./gamehub.png";
+import backendgithub from "./backendgithub.png";
+import weather from "./weather.png";
+import business from "./business.png";
+import nuget from "./nuget.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  doctorApp,
+  erp,
+  gamehub,
+  backendgithub,
+  weather,
+  business,
+  nuget,
 };

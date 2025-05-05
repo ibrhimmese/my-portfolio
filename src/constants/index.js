@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  doctorApp,
+  erp,
+  gamehub,
+  backendgithub,
+  weather,
+  business,
+  nuget
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +208,29 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "ERP",
+    description:
+      "A comprehensive ERP software designed for factories to manage production, inventory, accounting, and warehouse operations.",
+    tags: [
+      {
+        name: "dotnet-8",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mssql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "angular",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: erp,
+    source_code_link: "https://github.com/ibrhimmese/ERP.Web.Application.Server",
+  },
+  
   {
     name: "Car Rent",
     description:
@@ -215,97 +245,192 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ibrhimmese/Vehicles-App-Nodejs",
   },
   {
-    name: "Job IT",
+    name: "Currency Mobile App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A mobile wallet app that integrates with the central bank API to buy, store, and sell foreign currencies across different exchange rates.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgre sql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/ibrhimmese/Currency-Mobile-App",
+  },
+  {
+    name: "Maintenance Master",
+    description:
+      "A comprehensive maintenance management platform, available on both mobile and web, that handles maintenance processes, device failure information, reporting, building details, and bulk maintenance order evaluation.",
+    tags: [
+      {
+        name: "dotnet-8",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgre sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "azure",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redis",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-native",
+        color: "green-text-gradient",
+      },
+    ],
+    image: business,
+    source_code_link: "#",
+  },
+  {
+    name: "E-Appointment",
+    description:
+      "A digital appointment system that manages online booking between doctors and patients in a fast and user-friendly way.",
+    tags: [
+      {
+        name: "dotnet-8",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mssql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "angular",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: doctorApp,
+    source_code_link: "https://github.com/ibrhimmese/eAppointmentServer",
+  },
+  {
+    name: "PowerTrack",
+    description:
+      "An energy management system for malls and office plazas that monitors electricity usage, generates bills, and disables power for unpaid accounts.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "modbus",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: tripguide,
+    source_code_link: "#",
+  },
+  {
+    name: "Game-Hub",
+    description:
+      "A simple client-side game library app that lists game titles, platforms, and ratings.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "chakra-ui",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
+    
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gamehub,
+    source_code_link: "https://github.com/ibrhimmese/game-hub",
   },
+  
   {
-    name: "Trip Guide",
+    name: "WeatherDo",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A productivity-focused to-do app that tracks daily tasks and displays real-time weather information.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "expo",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "async storage",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/ibrhimmese/Weather-Task-App-React-Native",
   },
+  
+ 
   {
-    name: "Trip Guide",
+    name: "Backend Solutions",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A repository containing infrastructure and backend development work, including various technologies and architectures.",
     tags: [
       {
-        name: "nextjs",
+        name: "dotnet-8",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: backendgithub,
+    source_code_link: "https://github.com/ibrhimmese/Server",
   },
   {
-    name: "Trip Guide",
+    name: "Nuget Packages",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A collection of custom NuGet packages providing reusable solutions for .NET projects.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nuget,
+    source_code_link: "https://www.nuget.org/packages?q=ibrhimmese",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
