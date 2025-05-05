@@ -429,7 +429,8 @@ const projects = [
     ],
     image: nuget,
     source_code_link: "https://www.nuget.org/packages?q=ibrhimmese",
-  },
+  }
+
   
 ];
 
